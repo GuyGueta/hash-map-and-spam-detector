@@ -1,0 +1,20 @@
+cpp_ex3
+guy245
+203428222
+##########################################################
+
+Description:
+in this ex i practice templates. I had to create an open hash map, dealing with collisions
+and  all the other fuck off the hash map.i also practice inner calls , i created the iterator ass a inner
+class of the hash map, and practice exceptions.
+
+Implementation:
+HashMap.hpp -
+This file includes the class of the hashmap, supporting all features of hash map including insert,
+erase, containing and at(key). It supports the operators '=' and move assignment, '==', '!=', '[]'
+access read and write. Rule of five has been implemented as well. This class also implements
+iterator class as a constant iterator to iterate over all pairs in the hash map.
+
+SpamDetector.cpp -
+This file is basically parsing a given database in the format of "phrase,number" and recognize if a message is a spam or
+not.
